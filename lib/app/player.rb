@@ -82,8 +82,6 @@ class Player
     end
   end
 
-  def check_square
-
   def correct_input?(square)
     square.match? /^[A-C]{1}[1-3]{1}/
   end

@@ -83,7 +83,7 @@ class Player
   end
 
   def correct_input?(square)
-    square.match? /^[A-C]{1}[1-3]{1}/
+    square.match? /^[A-C]{1}[1-3]{1}$/
   end
    
   def find_board_square_from_coords(board, coords)
